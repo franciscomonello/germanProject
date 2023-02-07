@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>german project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+</head>
+<body>
+    <header id="navbar">
+        <nav id="nav">
+        <p id="titleHeader">Aprende alemàn</p><img src="germanBall.png" class="logo" width="29px">
+        <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <div class="linkContainer">
+        <ul class="links">
+            <li><a href="#Inicio" class="scrollLink">Inicio</a></li>
+            <li><a href="#Gramatica" class="scrollLink">Gramatica</a></li>
+            <li><a href="#Pronunciacion" class="scrollLink">Pronunciacion</a></li>
+            <li><a href="#Vocabulario" class="scrollLink">Vocabulario</a></li>
+            <li><a href="#Curso" class="scrollLink">Curso</a></li>
+            <li><a href="#Contacto" class="scrollLink">Contacto</a></li>
+        </ul>
+    </div>
+    </header>
+    
+    <div id="Inicio">
+       <div class="infoContainer">
+           <h1>¿Quien soy?¿Què aprenderas?</h1>
+           <p>Hola Me llamo Francisco Monello, y soy un entusiasta de las lenguas, actualmente hablo inglès, alemàn y aprendò frànces. En cada idioma hay 3 cosas esenciales para aprender y son gramàtica, pronunciaciòn y vocabulario.
+            Con esos 3 elementos cada uno aprendera una lengua. Pero cada lengua se diferencia por estos 3 tòpicos.
+           </p>
+           <p>A continuaciòn usted vera una explicacion de cada tema </p>
+       </div>
+    </div>
+    
+    <div id="Gramatica" >
+        <div class="infoContainer">
+        <h1>¿Es dìficil la gramàtica alemàna, en què consiste?</h1>
+        <p id="paragraph">
+            La gramàtica es diferente al 
+    español ya que el lenguage es 
+    de origen germanico y el español rumanico(Iberorumanico para ser mas especifico). Una gran diferencia es el sistema de articulos de las palabras. El español tiene 2: "la", y "le", en cambio el alemàn tiene 3 y son "Der" en masculino, "Die" en femenino, y finalmente "Das" en neutro. En si, es complicado para todos los aprendices del alemàn, sea hispanohablante, japònes, estadounidense 
+    y un largo etcera. Ya que no es establecido una regla oficial para saber cual es el artìculo de cada palabra, por ejemplo "Die Handschuhen" (guantes en español) es feminino pero realmente no hay forma de 
+    saberlo.
+        </p>
+           <div class="btnContainer">
+                <button class="prevBtn" type="button"><i class="fas fa-chevron-left"></i></button>
+                <button class="nextBtn" type="button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="Pronunciacion">
+        <div class="infoContainer">
+        <h1>¿Es complicada la pronunciaciòn en Alemàn, en què se diferencia del Español?</h1>
+        <p id="paraTwo">
+        </p>
+        <div class="btnContainer">
+            <button class="prevBtn" id="prevBtnTwo" type="button"><i class="fas fa-chevron-left"></i></button>
+            <button class="nextBtn" id="nextBtnTwo" type="button"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+    <div id="Vocabulario">
+        <div class="infoContainer">
+            <h1>¿Como se ve el vocabulario en alemàn? ¿La mejor forma de aprenderlo cual serìa?</h1>
+            <p id="paraThree">
+                
+            </p>
+            <div class="btnContainer">
+                <button class="prevBtn" id="prevBtnThree" type="button"><i class="fas fa-chevron-left"></i></button>
+                <button class="nextBtn" id="nextBtnThree" type="button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="Curso">
+        <div class="infoContainer">
+            <h1>Proximamente, hare cursos personalizados para los alumnos</h1>
+            <p>Aca un aproximado de como se verìa</p>
+        </div>
+        <div class="sliderContainer">
+            <div class="slide">
+            <img src="imgCourseOne.png" class="slideImg" alt="aleman">
+        </div>
+        <div class="slide">
+            <img src="imgCourseTwo.png" class="slideImg" alt="aleman">
+        </div>
+    </div>
+        <div class="btnContainer">
+            <button class="prevBtn" id="slidePrevBtn" type="button">
+                anterior
+            </button>
+            <button class="nextBtn" id="slideNextBtn" type="button">
+               siguiente
+            </button>
+        </div>
+
+    </div>
+    <div id="Contacto">
+        
+        <form 
+         action="https://formsubmit.co/franciscomonellole@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="email" class="correoEmail" name="email" placeholder="correo electronico" required>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Escribe tu mensage aquì"></textarea>
+            <button type="submit" id="btnSend">Enviar </button>
+       </form>
+    
+</div>
+    <footer>
+        copyright &copy; <span id="date"></span> aprender aleman con Francisco
+    </footer>
+    <a href="#Inicio" class="scroll-link top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html>
